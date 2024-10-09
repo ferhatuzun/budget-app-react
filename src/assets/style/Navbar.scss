@@ -1,0 +1,60 @@
+@import "./Main.scss";
+
+#navbar {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  background-color: $white;
+  height: 100vh;
+  #logo {
+    padding: 2rem;
+    img {
+      width: 20rem;
+      height: auto;
+    }
+  }
+  #navLink {
+    margin-top: 5rem;
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      li {
+        display: flex;
+        gap: 1rem;
+        .navlinkItem {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+          color: $textGray;
+          width: 100%;
+          padding: 1rem 1rem 1rem 4rem;
+          text-align: center;
+          position: relative;
+          color: $textGray;
+          transition: color 0.2s ease-in;
+        }
+        transition: color 0.2s ease-in;
+        &:hover,
+        a:hover {
+          color: $textBlue;
+        }
+      }
+    }
+  }
+}
+
+.active {
+  color: $textBlue !important;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 0.7rem;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0 1rem 1rem 0;
+    background-color: $textBlue;
+  }
+}

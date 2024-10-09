@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  @extend %inter;
+  font-size: 1.6rem;
+}
+%inter {
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  display: grid;
+  grid-template-columns: 25rem calc(100% - 25rem );
+}
+
+$white: #fff;
+$textGray: #b1b1b1;
+$textBlue: #2d60ff;
+$textLightBlue: #718ebf;

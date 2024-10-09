@@ -1,0 +1,19 @@
+@import "../Main.scss";
+
+#generalBalance{
+    background-color: $white ;
+    display: flex;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 3rem;
+    .logoContainer{
+        img{
+            width: 6rem;
+        }
+    }
+    .title{
+        color: $textLightBlue;
+    }
+}

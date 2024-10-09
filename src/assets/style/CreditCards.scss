@@ -1,0 +1,38 @@
+#myCardsContainer {
+  .section {
+    padding: 2rem;
+  }
+  .cardListContainer {
+    height: 25rem;
+    position: relative;
+    overflow-x: auto;
+    &::-webkit-scrollbar {
+      width: 0.5rem !important;
+      height: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgb(170, 170, 170);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 0.3rem;
+      background: rgb(0, 0, 0);
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+      background: rgb(0, 17, 255);
+    }
+    .card {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding: 0 3rem;
+    }
+    .card #creditCardsContainer:nth-child(even) {
+      background-color: #539bff;
+    }
+  }
+}

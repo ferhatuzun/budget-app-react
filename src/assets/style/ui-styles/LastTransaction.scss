@@ -1,0 +1,32 @@
+@import "../Main.scss";
+
+#lastTransactionContainer {
+  margin-top: 3rem;
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
+  .lastTransferList {
+    background-color: $white;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    border-radius: 2rem;
+    padding: 2rem 0;
+    .cardItem {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom: 2rem;
+      .priceIn {
+        color: green;
+        font-weight: bold;
+      }
+      .priceOut {
+        color: red;
+        font-weight: bold;
+      }
+    }
+  }
+}

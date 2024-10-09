@@ -1,0 +1,288 @@
+{
+  "category": [
+    {
+      "categoryName": "Online Abonelik",
+      "categoryId": "1",
+      "id": "f5cf"
+    },
+    {
+      "categoryName": "Fatura",
+      "categoryId": "1",
+      "id": "92e6"
+    }
+  ],
+  "creditCards": [
+    {
+      "id": "43ad",
+      "cardName": "test",
+      "cardType": "banka",
+      "bankName": "Akbank",
+      "cardNumber": "1233",
+      "cardOwner": "ferhat",
+      "expirationDate": "04/25",
+      "balance": 573,
+      "cvc": "654"
+    },
+    {
+      "id": "6945",
+      "cardName": "test 2",
+      "cardType": "kredi",
+      "bankName": "denizbank",
+      "cardNumber": "9878",
+      "cardOwner": "yasir",
+      "expirationDate": "12/29",
+      "balance": 35,
+      "cvc": "234"
+    },
+    {
+      "id": "78a5",
+      "cardName": "test 3",
+      "cardType": "kredi",
+      "bankName": "qnb",
+      "cardNumber": "4955",
+      "cardOwner": "ahmet",
+      "expirationDate": "05/27",
+      "balance": 0,
+      "cvc": "698"
+    },
+    {
+      "id": "3ed4",
+      "cardName": "test 4",
+      "cardType": "Banka",
+      "bankName": "Akbank",
+      "cardNumber": "4567456756485647",
+      "cardOwner": "ferhat uzun",
+      "expirationDate": "04/25",
+      "balance": 500,
+      "cvc": "305"
+    }
+  ],
+  "personList": [
+    {
+      "personName": "Yasir Aytekin",
+      "phoneNumber": "0546 456 78 96",
+      "id": "3762"
+    },
+    {
+      "personName": "Ahmet Alemdar",
+      "phoneNumber": "0546 456 78 96",
+      "id": "130f"
+    },
+    {
+      "personName": "Enes Aytekin",
+      "phoneNumber": "0546 456 78 96",
+      "id": "2874"
+    },
+    {
+      "personName": "Hasan Alemdar",
+      "phoneNumber": "0546 456 78 96",
+      "id": "7e9b"
+    }
+  ],
+  "income": [
+    {
+      "id": "cc37",
+      "creditCard": "Enpara Hesap",
+      "balance": "123",
+      "commet": "adfasd"
+    },
+    {
+      "id": "1b41",
+      "creditCard": "Garanti Kredi",
+      "balance": "44",
+      "commet": "444"
+    },
+    {
+      "id": "b75f",
+      "creditCard": "Garanti Kredi",
+      "balance": "123",
+      "commet": "asd"
+    },
+    {
+      "id": "4684",
+      "creditCard": "ING Hesap",
+      "balance": "2",
+      "commet": "xxxxxxxxx"
+    },
+    {
+      "id": "f0ea",
+      "creditCard": "Denizbank Hesap",
+      "balance": "123",
+      "commet": "qwe"
+    },
+    {
+      "id": "498e",
+      "creditCard": "test",
+      "balance": "100",
+      "commet": "asd"
+    },
+    {
+      "id": "ccbd",
+      "creditCard": "Akbank",
+      "balance": "123",
+      "commet": "123"
+    },
+    {
+      "id": "e92a",
+      "creditCard": "Akbank",
+      "balance": "23",
+      "commet": "asd"
+    },
+    {
+      "id": "5755",
+      "creditCard": "Akbank",
+      "balance": "123",
+      "commet": "adas"
+    },
+    {
+      "id": "f5a6",
+      "creditCard": "Akbank",
+      "balance": "444",
+      "commet": "sda"
+    },
+    {
+      "id": "d79f",
+      "creditCard": "Akbank",
+      "balance": "23",
+      "commet": "asd"
+    },
+    {
+      "id": "8fc9",
+      "creditCard": "test",
+      "balance": "213",
+      "commet": "qw"
+    },
+    {
+      "id": "5766",
+      "creditCard": "test",
+      "balance": "2",
+      "commet": "qwe",
+      "date": "2024-10-09T07:46:58.507Z"
+    },
+    {
+      "id": "8990",
+      "creditCard": "tests",
+      "balance": "3",
+      "commet": "wer",
+      "date": "2024-10-09T08:32:59.718Z"
+    },
+    {
+      "id": "de09",
+      "creditCard": "tests",
+      "balance": "23",
+      "commet": "qwe",
+      "date": "function getDate() { [native code] }.9.2024"
+    },
+    {
+      "id": "9950",
+      "creditCard": "tests",
+      "balance": "213",
+      "commet": "qwe",
+      "date": "9.9.2024"
+    },
+    {
+      "id": "f249",
+      "creditCard": "test",
+      "balance": "324",
+      "commet": "d",
+      "date": "9.91.2024"
+    },
+    {
+      "id": "2373",
+      "creditCard": "test",
+      "balance": "234",
+      "commet": "erw",
+      "date": "9.91.2024"
+    },
+    {
+      "id": "1ae1",
+      "creditCard": "tests",
+      "balance": "32",
+      "commet": "sdf",
+      "date": "09.10.2024"
+    }
+  ],
+  "expense": [
+    {
+      "id": "0b95",
+      "creditCard": "Akbank Hesap",
+      "balance": "123",
+      "commet": "qweqwe"
+    },
+    {
+      "id": "b3bd",
+      "creditCard": "Garanti Kredi",
+      "balance": "111",
+      "commet": "aaa"
+    },
+    {
+      "id": "c95c",
+      "creditCard": "Garanti Kredi",
+      "balance": "123",
+      "commet": "12312"
+    },
+    {
+      "id": "e9b9",
+      "creditCard": "Garanti Kredi",
+      "balance": "12312",
+      "commet": "qweqwe"
+    },
+    {
+      "id": "0b80",
+      "creditCard": "Online Abonelik",
+      "balance": "123123",
+      "commet": "wewqe"
+    },
+    {
+      "id": "4bc7",
+      "creditCard": "Akbank Hesap",
+      "balance": "123123",
+      "commet": "qweqw"
+    },
+    {
+      "id": "5bf0",
+      "creditCard": "Akbank Hesap",
+      "category": "Fatura",
+      "balance": "13123",
+      "commet": "qweqwe"
+    },
+    {
+      "id": "494c",
+      "creditCard": "Akbank",
+      "category": "Fatura",
+      "balance": "90",
+      "commet": "asd"
+    },
+    {
+      "id": "d7f5",
+      "creditCard": "test",
+      "category": "Online Abonelik",
+      "balance": "200",
+      "commet": "asd"
+    },
+    {
+      "id": "2f5d",
+      "creditCard": "tests",
+      "category": "Online Abonelik",
+      "balance": "23",
+      "commet": "qwe",
+      "date": "09.10.2024"
+    }
+  ],
+  "creditList": [
+    {
+      "id": "b815",
+      "creditCard": "Yasir Aytekin",
+      "balance": "23",
+      "commet": "qwe"
+    }
+  ],
+  "debitList": [
+    {
+      "id": "afe8",
+      "creditCard": "Yasir Aytekin",
+      "balance": "123",
+      "commet": "qwe"
+    }
+  ]
+}

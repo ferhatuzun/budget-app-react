@@ -1,0 +1,36 @@
+@import "../Main.scss";
+
+#creditCardsContainer {
+  min-width: 35rem;
+  background-color: #0a06f4;
+  color: $white;
+  border-radius: 2rem;
+  transition: min-width 0.4s;
+  .cardTop {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+  }
+  .cardBody {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    .title {
+      opacity: 0.7;
+      margin-bottom: 0.3rem;
+    }
+  }
+  .cardFooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4c49ed;
+    padding: 1rem 2rem;
+    border-radius: 0 0 2rem 2rem;
+    img {
+      width: 5rem;
+    }
+  }
+}

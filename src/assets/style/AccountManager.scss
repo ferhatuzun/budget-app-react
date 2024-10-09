@@ -1,0 +1,44 @@
+@import "./Main.scss";
+
+.section{
+    padding: 2rem;
+}
+#accountManagerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    width: 120rem;
+    margin: auto;
+    gap: 5rem;
+    .addMoneyForm{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 3rem;
+        background-color: $white;
+        border-radius: 2rem;
+        .inputGroup:nth-child(3){
+            grid-column: 1 / span 3;
+        }
+        .inputGroup:nth-child(4){
+            grid-column: 1 / span 3;
+        }
+    }
+}
+
+.btnAddCard {
+    grid-column: 2 / span 1;
+    width: 12rem;
+    border: none;
+    color: $white;
+    font-size: 1.6rem;
+    background-color: $textBlue;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    margin-left: auto;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: $textLightBlue;
+      cursor: pointer;
+    }
+  }

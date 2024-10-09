@@ -1,0 +1,16 @@
+#cardsPreview {
+    margin-top: 3rem;
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
+  .cardList{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    overflow: hidden;
+  }
+}
