@@ -7,7 +7,7 @@ export const BankTransactions = () => {
         <div style={{padding:"2rem"}}>
           <h2>Tüm Hesap Hareketleri</h2>
         </div>
-        <UiCardExpensesList />
+        <UiCardExpensesList type={"all"} />
       </div>
     </>
   )

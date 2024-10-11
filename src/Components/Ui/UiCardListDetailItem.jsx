@@ -10,6 +10,10 @@ export const UiCardListDetailItem = ({ cardList }) => {
             return (
               <div className="cardItem" key={index}>
                 <img src={CardIcon} alt="" />
+                <div className="cardName">
+                  <h4>Kart Adı</h4>
+                  <p>{card.cardName}</p>
+                </div>
                 <div className="cardType">
                   <h4>Kart Tipi</h4>
                   <p>{card.cardType}</p>
@@ -27,7 +31,7 @@ export const UiCardListDetailItem = ({ cardList }) => {
                   <p>{card.cardOwner}</p>
                 </div>
                 <div className="buttons">
-                  <Link to="cardExpenses">Detaylar</Link>
+                  <Link to={`cardExpenses/${card.id}`}>Detaylar</Link>
                 </div>
               </div>
             );

@@ -9,6 +9,9 @@ const Provider = ({ children }) => {
   const [cardList, setCardList] = useState([]);
   const [personList, setPersonList] = useState([]);
   const [categoryList, setCategoryList] = useState([]);
+  const [expensesList, setExpensesList] = useState([]);
+  const [incomeList, setIncomeList] = useState([]);
+  const [transactionList, setTransactionList] = useState([]);
   useEffect(() => {
     const getCardList = async () => {
       let response = await axios.get(database + "/creditCards");
@@ -22,27 +25,47 @@ const Provider = ({ children }) => {
       let response = await axios.get(database + "/category");
       setCategoryList(response.data);
     };
+    const getExpensesList = async () => {
+      let response = await axios.get(database + "/expense");
+      setExpensesList(response.data);
+    };
+    const getIncomeList = async () => {
+      let response = await axios.get(database + "/income");
+      setIncomeList(response.data);
+    };
+    const getTransactionList = async () => {
+      let response = await axios.get(database + "/transactionList");
+      setTransactionList(response.data.reverse());
+    };
     getCardList();
     getPersonList();
     getCategoryList();
+    getExpensesList();
+    getIncomeList();
+    getTransactionList();
   }, []);
-  
+
   let date = new Date();
   let yyyy = date.getFullYear();
   let mm = date.getMonth() + 1;
   let dd = date.getDate();
   if (dd < 10) dd = "0" + dd;
   if (mm < 10) mm = "0" + mm;
-  let dateFormat = dd + "." + mm + "." + yyyy;  
-
+  let dateFormat = dd + "." + mm + "." + yyyy;
 
   const addMoney = async (data) => {
-    await axios.post(database + "/income", {
+    let dataFormat = {
       creditCard: data.userSelectValue,
-      balance: data.userInputValue,
+      income: parseInt(data.userInputValue),
       commet: data.userTextAreaValue,
       date: dateFormat,
-    });
+      cardId: cardList
+        .filter((card) => card.cardName == data.userSelectValue)
+        .map((card) => card.id)
+        .toString(),
+    };
+    await axios.post(database + "/income", dataFormat);
+    await axios.post(database + "/transactionList", dataFormat);
     let updateBalance;
     for (let card of cardList) {
       if (card.cardName == data.userSelectValue) {
@@ -60,18 +83,24 @@ const Provider = ({ children }) => {
       }
     }
     await axios.put(
-      database + "/creditCards/" + updateBalance.id,
+      database + "/creditCards/"+updateBalance.id,
       updateBalance
     );
   };
   const removeMoney = async (data) => {
-    await axios.post(database + "/expense", {
+    let dataFormat = {
       creditCard: data.userSelectValue,
       category: data.userCategoryValue,
-      balance: data.userInputValue,
+      expense: parseInt(data.userInputValue),
       commet: data.userTextAreaValue,
-      date:dateFormat
-    });
+      date: dateFormat,
+      cardId: cardList
+        .filter((card) => card.cardName == data.userSelectValue)
+        .map((card) => card.id)
+        .toString(),
+    };
+    await axios.post(database + "/expense", dataFormat);
+    await axios.post(database + "/transactionList", dataFormat);
     let updateBalance;
     for (let card of cardList) {
       if (card.cardName == data.userSelectValue) {
@@ -123,6 +152,9 @@ const Provider = ({ children }) => {
     cardList,
     personList,
     categoryList,
+    expensesList,
+    incomeList,
+    transactionList,
     addMoney,
     removeMoney,
     addCredit,

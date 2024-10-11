@@ -85,7 +85,7 @@ export const UiAddNewCard = () => {
           <UiInput
             text="Kart Numarası"
             placeholder="16 haneli kart numarası"
-            type="number"
+            type="text"
             userInput={cardNumber}
           />
           <UiInput

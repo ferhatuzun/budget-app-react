@@ -17,7 +17,7 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/creditCards" element={<CreditCards />} />
             <Route
-              path="/creditCards/cardExpenses"
+              path="/creditCards/cardExpenses/:cardId"
               element={<CardExpenses />}
             />
             <Route path="/bankTransactions" element={<BankTransactions/>} />

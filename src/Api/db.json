@@ -13,25 +13,14 @@
   ],
   "creditCards": [
     {
-      "id": "43ad",
-      "cardName": "test",
-      "cardType": "banka",
-      "bankName": "Akbank",
-      "cardNumber": "1233",
-      "cardOwner": "ferhat",
-      "expirationDate": "04/25",
-      "balance": 573,
-      "cvc": "654"
-    },
-    {
       "id": "6945",
       "cardName": "test 2",
       "cardType": "kredi",
       "bankName": "denizbank",
-      "cardNumber": "9878",
+      "cardNumber": "4567 4567 5648 5647",
       "cardOwner": "yasir",
       "expirationDate": "12/29",
-      "balance": 35,
+      "balance": 200,
       "cvc": "234"
     },
     {
@@ -39,7 +28,7 @@
       "cardName": "test 3",
       "cardType": "kredi",
       "bankName": "qnb",
-      "cardNumber": "4955",
+      "cardNumber": "4567 4567 5648 5647",
       "cardOwner": "ahmet",
       "expirationDate": "05/27",
       "balance": 0,
@@ -50,11 +39,44 @@
       "cardName": "test 4",
       "cardType": "Banka",
       "bankName": "Akbank",
-      "cardNumber": "4567456756485647",
+      "cardNumber": "4567 4567 5648 5647",
       "cardOwner": "ferhat uzun",
       "expirationDate": "04/25",
-      "balance": 500,
+      "balance": 560,
       "cvc": "305"
+    },
+    {
+      "id": "928d",
+      "cardName": "isanın kartı",
+      "cardType": "banka",
+      "bankName": "akbank",
+      "cardNumber": "4564 5656 8956 2145",
+      "cardOwner": "isa yalcın",
+      "expirationDate": "04/28",
+      "balance": 4585,
+      "cvc": "310"
+    },
+    {
+      "id": "a13d",
+      "cardName": "test 99",
+      "cardType": "kredi",
+      "bankName": "a bank",
+      "cardNumber": "1231 2312 3123 1234",
+      "cardOwner": "ben",
+      "expirationDate": "04/25",
+      "balance": 0,
+      "cvc": "256"
+    },
+    {
+      "id": "0fcf",
+      "cardName": "res",
+      "cardType": "asd",
+      "bankName": "asd",
+      "cardNumber": "123",
+      "cardOwner": "asd",
+      "expirationDate": "we",
+      "balance": 0,
+      "cvc": "23"
     }
   ],
   "personList": [
@@ -81,192 +103,429 @@
   ],
   "income": [
     {
-      "id": "cc37",
-      "creditCard": "Enpara Hesap",
-      "balance": "123",
-      "commet": "adfasd"
-    },
-    {
-      "id": "1b41",
-      "creditCard": "Garanti Kredi",
-      "balance": "44",
-      "commet": "444"
-    },
-    {
-      "id": "b75f",
-      "creditCard": "Garanti Kredi",
-      "balance": "123",
-      "commet": "asd"
-    },
-    {
-      "id": "4684",
-      "creditCard": "ING Hesap",
-      "balance": "2",
-      "commet": "xxxxxxxxx"
-    },
-    {
-      "id": "f0ea",
-      "creditCard": "Denizbank Hesap",
-      "balance": "123",
-      "commet": "qwe"
-    },
-    {
-      "id": "498e",
+      "id": "d186",
       "creditCard": "test",
-      "balance": "100",
-      "commet": "asd"
+      "income": 10,
+      "commet": "A",
+      "date": "10.10.2024",
+      "cardId": "43ad"
     },
     {
-      "id": "ccbd",
-      "creditCard": "Akbank",
-      "balance": "123",
-      "commet": "123"
-    },
-    {
-      "id": "e92a",
-      "creditCard": "Akbank",
-      "balance": "23",
-      "commet": "asd"
-    },
-    {
-      "id": "5755",
-      "creditCard": "Akbank",
-      "balance": "123",
-      "commet": "adas"
-    },
-    {
-      "id": "f5a6",
-      "creditCard": "Akbank",
-      "balance": "444",
-      "commet": "sda"
-    },
-    {
-      "id": "d79f",
-      "creditCard": "Akbank",
-      "balance": "23",
-      "commet": "asd"
-    },
-    {
-      "id": "8fc9",
+      "id": "1415",
       "creditCard": "test",
-      "balance": "213",
-      "commet": "qw"
+      "income": 50,
+      "commet": "B",
+      "date": "10.10.2024",
+      "cardId": "43ad"
     },
     {
-      "id": "5766",
+      "id": "0cfb",
       "creditCard": "test",
-      "balance": "2",
+      "income": 78,
+      "commet": "C",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "bd1d",
+      "creditCard": "test 2",
+      "income": 98,
+      "commet": "ASD",
+      "date": "10.10.2024",
+      "cardId": "6945"
+    },
+    {
+      "id": "080a",
+      "creditCard": "test 2",
+      "income": 99,
+      "commet": "SAD",
+      "date": "10.10.2024",
+      "cardId": "6945"
+    },
+    {
+      "id": "e67d",
+      "creditCard": "test 3",
+      "income": 7,
+      "commet": "ASD",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "d9b3",
+      "creditCard": "test 4",
+      "income": 8,
+      "commet": "ASD",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "8a9e",
+      "creditCard": "test",
+      "income": 138,
+      "commet": "we",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "a820",
+      "creditCard": "test",
+      "income": 230,
+      "commet": "s",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "2be0",
+      "creditCard": "test 4",
+      "income": 50,
+      "commet": "wewe",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "3ac2",
+      "creditCard": "isanın kartı",
+      "income": 31,
+      "commet": "asdasd",
+      "date": "10.10.2024",
+      "cardId": "928d"
+    },
+    {
+      "id": "c738",
+      "creditCard": "test",
+      "income": 1,
+      "commet": "1",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "108c",
+      "creditCard": "test 2",
+      "income": 38,
+      "commet": "we",
+      "date": "10.10.2024",
+      "cardId": "6945"
+    },
+    {
+      "id": "6c29",
+      "creditCard": "isanın kartı",
+      "income": 4585,
+      "commet": "k",
+      "date": "10.10.2024",
+      "cardId": "928d"
+    },
+    {
+      "id": "5e6f",
+      "creditCard": "test",
+      "income": 1,
+      "commet": "m ",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "f121",
+      "creditCard": "isanın kartı",
+      "income": 5,
+      "commet": "k",
+      "date": "10.10.2024",
+      "cardId": "928d"
+    },
+    {
+      "id": "f4dd",
+      "creditCard": "test 3",
+      "income": 78,
+      "commet": "ll",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "5a21",
+      "creditCard": "test 3",
+      "income": 999,
+      "commet": "lk",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "57f9",
+      "creditCard": "test 3",
+      "income": 2,
+      "commet": "e",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "205e",
+      "creditCard": "test 99",
+      "income": 99,
+      "commet": "w",
+      "date": "10.10.2024",
+      "cardId": "a13d"
+    },
+    {
+      "id": "07fd",
+      "creditCard": "test",
+      "income": 3,
+      "commet": "3",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "a64b",
+      "creditCard": "test 3",
+      "income": 2,
+      "commet": "2",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "b92c",
+      "creditCard": "test",
+      "income": 2,
+      "commet": "2",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "ee5e",
+      "creditCard": "test 3",
+      "income": 3,
+      "commet": "3",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "22f8",
+      "creditCard": "test 2",
+      "income": 2,
+      "commet": "2",
+      "date": "10.10.2024",
+      "cardId": "6945"
+    },
+    {
+      "id": "8d40",
+      "creditCard": "test",
+      "income": 2,
+      "commet": "2",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "8f2b",
+      "creditCard": "test 3",
+      "income": 4,
+      "commet": "\ne",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "b1ea",
+      "creditCard": "test 2",
+      "income": 2,
+      "commet": "3",
+      "date": "10.10.2024",
+      "cardId": "6945"
+    },
+    {
+      "id": "84d1",
+      "creditCard": "test 3",
+      "income": 2,
+      "commet": "ew",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "f8ee",
+      "creditCard": "test 4",
+      "income": 3,
+      "commet": "3qewq",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "8ad2",
+      "creditCard": "test 2",
+      "income": 213,
+      "commet": "ads",
+      "date": "10.10.2024",
+      "cardId": "6945"
+    },
+    {
+      "id": "2856",
+      "creditCard": "test 3",
+      "income": 23,
       "commet": "qwe",
-      "date": "2024-10-09T07:46:58.507Z"
+      "date": "10.10.2024",
+      "cardId": "78a5"
     },
     {
-      "id": "8990",
-      "creditCard": "tests",
-      "balance": "3",
-      "commet": "wer",
-      "date": "2024-10-09T08:32:59.718Z"
+      "id": "0054",
+      "creditCard": "test 4",
+      "income": 4,
+      "commet": "we",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
     },
     {
-      "id": "de09",
-      "creditCard": "tests",
-      "balance": "23",
-      "commet": "qwe",
-      "date": "function getDate() { [native code] }.9.2024"
+      "id": "842c",
+      "creditCard": "test 4",
+      "income": 23,
+      "commet": "23\"",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
     },
     {
-      "id": "9950",
-      "creditCard": "tests",
-      "balance": "213",
-      "commet": "qwe",
-      "date": "9.9.2024"
-    },
-    {
-      "id": "f249",
-      "creditCard": "test",
-      "balance": "324",
-      "commet": "d",
-      "date": "9.91.2024"
-    },
-    {
-      "id": "2373",
-      "creditCard": "test",
-      "balance": "234",
-      "commet": "erw",
-      "date": "9.91.2024"
-    },
-    {
-      "id": "1ae1",
-      "creditCard": "tests",
-      "balance": "32",
-      "commet": "sdf",
-      "date": "09.10.2024"
+      "id": "3317",
+      "creditCard": "test 4",
+      "income": 29,
+      "commet": "213",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
     }
   ],
   "expense": [
     {
-      "id": "0b95",
-      "creditCard": "Akbank Hesap",
-      "balance": "123",
-      "commet": "qweqwe"
-    },
-    {
-      "id": "b3bd",
-      "creditCard": "Garanti Kredi",
-      "balance": "111",
-      "commet": "aaa"
-    },
-    {
-      "id": "c95c",
-      "creditCard": "Garanti Kredi",
-      "balance": "123",
-      "commet": "12312"
-    },
-    {
-      "id": "e9b9",
-      "creditCard": "Garanti Kredi",
-      "balance": "12312",
-      "commet": "qweqwe"
-    },
-    {
-      "id": "0b80",
-      "creditCard": "Online Abonelik",
-      "balance": "123123",
-      "commet": "wewqe"
-    },
-    {
-      "id": "4bc7",
-      "creditCard": "Akbank Hesap",
-      "balance": "123123",
-      "commet": "qweqw"
-    },
-    {
-      "id": "5bf0",
-      "creditCard": "Akbank Hesap",
-      "category": "Fatura",
-      "balance": "13123",
-      "commet": "qweqwe"
-    },
-    {
-      "id": "494c",
-      "creditCard": "Akbank",
-      "category": "Fatura",
-      "balance": "90",
-      "commet": "asd"
-    },
-    {
-      "id": "d7f5",
+      "id": "f933",
       "creditCard": "test",
       "category": "Online Abonelik",
-      "balance": "200",
-      "commet": "asd"
+      "expense": 9,
+      "commet": "S",
+      "date": "10.10.2024",
+      "cardId": "43ad"
     },
     {
-      "id": "2f5d",
-      "creditCard": "tests",
+      "id": "1040",
+      "creditCard": "test",
       "category": "Online Abonelik",
-      "balance": "23",
+      "expense": 99,
+      "commet": "ASD",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "7d4f",
+      "creditCard": "test 3",
+      "category": "Online Abonelik",
+      "expense": 6,
+      "commet": "S",
+      "date": "10.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "34b4",
+      "creditCard": "test 4",
+      "category": "Online Abonelik",
+      "expense": 1,
+      "commet": "65",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "5062",
+      "creditCard": "test",
+      "category": "Fatura",
+      "expense": 230,
+      "commet": "q",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "8273",
+      "creditCard": "test 4",
+      "category": "Online Abonelik",
+      "expense": 2,
+      "commet": "12e",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "b762",
+      "creditCard": "isanın kartı",
+      "category": "Fatura",
+      "expense": 500,
+      "commet": "45",
+      "date": "10.10.2024",
+      "cardId": "928d"
+    },
+    {
+      "id": "d50f",
+      "creditCard": "test",
+      "category": "Online Abonelik",
+      "expense": 2,
+      "commet": "2",
+      "date": "10.10.2024",
+      "cardId": "43ad"
+    },
+    {
+      "id": "a161",
+      "creditCard": "test 2",
+      "category": "Online Abonelik",
+      "expense": 100,
+      "commet": "d",
+      "date": "10.10.2024",
+      "cardId": "6945"
+    },
+    {
+      "id": "b980",
+      "creditCard": "test 4",
+      "category": "Online Abonelik",
+      "expense": 213,
+      "commet": "6546",
+      "date": "11.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "8f85",
+      "creditCard": "test 3",
+      "category": "Online Abonelik",
+      "expense": 31,
+      "commet": "kkk",
+      "date": "11.10.2024",
+      "cardId": "78a5"
+    },
+    {
+      "id": "9384",
+      "creditCard": "test 2",
+      "category": "Online Abonelik",
+      "expense": 213,
       "commet": "qwe",
-      "date": "09.10.2024"
+      "date": "11.10.2024",
+      "cardId": "6945"
+    }
+  ],
+  "transactionList": [
+    {
+      "id": "64a5",
+      "creditCard": "test 4",
+      "income": 4,
+      "commet": "we",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "0c2a",
+      "creditCard": "test 4",
+      "income": 23,
+      "commet": "23\"",
+      "date": "10.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "108c",
+      "creditCard": "test 4",
+      "income": 29,
+      "commet": "213",
+      "date": "11.10.2024",
+      "cardId": "3ed4"
+    },
+    {
+      "id": "251d",
+      "creditCard": "test 2",
+      "category": "Online Abonelik",
+      "expense": 213,
+      "commet": "qwe",
+      "date": "11.10.2024",
+      "cardId": "6945"
     }
   ],
   "creditList": [

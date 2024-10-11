@@ -32,7 +32,7 @@ export const UiAccountController = ({ title, type }) => {
         userSelectValue != ""
       ) {
         addMoney({ userSelectValue, userInputValue, userTextAreaValue });
-        location.reload();
+        // location.reload();
       } else {
         alert("Lütfen tüm bilgileri doldurunuz.");
       }
