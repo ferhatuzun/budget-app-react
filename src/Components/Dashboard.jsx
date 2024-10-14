@@ -10,9 +10,9 @@ export const Dashboard = () => {
         <div className="generalBalanceContainer">
           <UiGeneralBalance title="Toplam" />
           <UiGeneralBalance title="Gelir" />
-          <UiGeneralBalance title="Gider" />
+          <UiGeneralBalance title="Gider"  />
           <UiGeneralBalance title="Alacak" />
-          <UiGeneralBalance title="Borç" />
+          <UiGeneralBalance title="Borç"   />
         </div>
         <UiCardsPreview />
         <UiLastTransaction />

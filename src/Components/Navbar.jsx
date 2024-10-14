@@ -34,7 +34,7 @@ export const Navbar = () => {
                 Hesap Yönetimi
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="navlinkItem">
                 <i className="fa-solid fa-user"></i>
                 Kişiler
@@ -51,7 +51,7 @@ export const Navbar = () => {
                 <i className="fa-solid fa-left-long"></i>
                 Alacaklar
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

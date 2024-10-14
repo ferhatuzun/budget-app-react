@@ -9,8 +9,8 @@ export const AccountManager = () => {
       <div id="accountManagerContainer">
         <UiAccountController title="Gelir Ekle" type="income"/>
         <UiAccountController title="Gider Ekle" type="expense"/>
-        <UiAccountController title="Alacak Ekle" type="credit"/>
-        <UiAccountController title="Borç Ekle" type="debit"/>
+        {/* <UiAccountController title="Alacak Ekle" type="credit"/>
+        <UiAccountController title="Borç Ekle" type="debit"/> */}
       </div>
     </>
   );

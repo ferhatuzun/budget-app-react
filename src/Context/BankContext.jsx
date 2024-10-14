@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useState, useEffect } from "react";
 import axios from "axios";
-const BankContext = createContext();
+const BankContext = createContext();    
 
 const database = "http://localhost:3000";
 
